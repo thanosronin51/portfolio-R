@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-iaz4)-4_y9w(k+jb=v0viloa$ni6q+sqd6u6nb9*1lrv=f9czr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://portfolio-chibuike.herokuapp.com/','127.0.0.1']
 
@@ -73,11 +73,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-          'builtins': [
-                'coffin.template.defaulttags',
-                'coffin.template.defaultfilters',
-                'coffin.templatetags.static',
-            ],  
+           
         },
     },
 ]

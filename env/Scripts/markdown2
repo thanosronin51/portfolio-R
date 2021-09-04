@@ -1,0 +1,4 @@
+#!c:\users\hp\desktop\gitboxx\portfolio-livestream-master\env\scripts\python.exe
+# EASY-INSTALL-SCRIPT: 'markdown2==2.4.1','markdown2'
+__requires__ = 'markdown2==2.4.1'
+__import__('pkg_resources').run_script('markdown2==2.4.1', 'markdown2')
